@@ -16,7 +16,7 @@ function NavBar() {
                 <span className='font-bold'>ELECTRO CLUB</span>
             </div>
             <div className='flex justify-end gap-16'>
-                <Link href="/" className='font-light transition-all duration-300 hover:font-medium '>
+                <Link href="/" className='font-light transition-all duration-500 hover:font-medium '>
                     HOME
                 </Link>
                 <Link href="/projects" className='font-light transition-all duration-300 hover:font-medium '>

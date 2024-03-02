@@ -57,7 +57,7 @@ import { useState } from 'react';
                     height={100}
                     className='inline-block cursor-pointer lg:hidden fixed right-20 '
                     onClick={() => setIsOpen(!isOpen)}
-                    layout='fixed' // Add this line to prevent the image from stretching
+                    
                 />
             </nav >
         );

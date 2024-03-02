@@ -8,15 +8,6 @@ function Footer() {
             <p>Ex-library, Faculty of Technology</p>
             <p>Boumerdes, Boumerdes, Algeria</p>
             <p>0541932850</p>
-            <p>JUICER</p>
-
-            <p>coks aksdjalksdj</p>
-            <p>cocksdsakda</p>
-
-            <p>kkkkkk</p>
-            <h1>GREEN BALLS</h1>
-
-
         </footer>
 
     )

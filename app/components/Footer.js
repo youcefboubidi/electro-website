@@ -10,6 +10,7 @@ function Footer() {
             <p>0541932850</p>
             <p>JUICER</p>
             <p>Juicier</p>
+            <p>poop</p>
         </footer>
 
     )

@@ -9,6 +9,7 @@ function Footer() {
             <p>Boumerdes, Boumerdes, Algeria</p>
             <p>0541932850</p>
             <p>JUICER</p>
+            <p>Juicier</p>
         </footer>
 
     )

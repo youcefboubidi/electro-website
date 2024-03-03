@@ -1,15 +1,18 @@
 import React from 'react'
 import { useKeenSlider } from 'keen-slider/react'
 import 'keen-slider/keen-slider.min.css'
+import Project from './Project'
 
 export default function Carousel({ type }) {
     const [sliderRef] = useKeenSlider({
+        loop: true,
+        mode: "free",
         slides: {
-            loop: true, // Enable infinite looping
-            perView: 3, // Show three slides at a time
-            spacing: 8, // Space between slides (in px)
-        }
+            perView: 2,
+            spacing: 15,
+        },
     })
+
 
     switch (type) {
 
@@ -18,20 +21,32 @@ export default function Carousel({ type }) {
             return (
                 <div ref={sliderRef} className="keen-slider">
                     <div className='flex justify-center items-center w-full aspect-[4/3] keen-slider__slide number-slide1'>
-                        <h1 className='text-4xl'>PROJECT 1</h1>
+                        <Project id={1} />
                     </div>
                     <div className='flex justify-center items-center w-full aspect-[4/3] keen-slider__slide number-slide2'>
-                        <h1 className='text-4xl'>PROJECT 2</h1>
+                        <Project id={2} />
                     </div>
                     <div className='flex justify-center items-center w-full aspect-[4/3] keen-slider__slide number-slide3'>
-                        <h1 className='text-4xl'>PROJECT 3</h1>
+                        <Project id={3} />
+                    </div>           <div className='flex justify-center items-center w-full aspect-[4/3] keen-slider__slide number-slide1'>
+                        <Project id={1} />
                     </div>
-                    <div className='flex justify-center items-center w-full aspect-[4/3] keen-slider__slide number-slide4'>
-                        <h1 className='text-4xl'>PROJECT 4</h1>
+                    <div className='flex justify-center items-center w-full aspect-[4/3] keen-slider__slide number-slide2'>
+                        <Project id={2} />
                     </div>
-                    <div className='flex justify-center items-center w-full aspect-[4/3] keen-slider__slide number-slide5'>
-                        <h1 className='text-4xl'>PROJECT 5</h1>
+                    <div className='flex justify-center items-center w-full aspect-[4/3] keen-slider__slide number-slide3'>
+                        <Project id={3} />
+                    </div>           <div className='flex justify-center items-center w-full aspect-[4/3] keen-slider__slide number-slide1'>
+                        <Project id={1} />
                     </div>
+                    <div className='flex justify-center items-center w-full aspect-[4/3] keen-slider__slide number-slide2'>
+                        <Project id={2} />
+                    </div>
+                    <div className='flex justify-center items-center w-full aspect-[4/3] keen-slider__slide number-slide3'>
+                        <Project id={3} />
+                    </div>
+
+
                 </div>
             )
 

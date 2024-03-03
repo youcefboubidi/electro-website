@@ -8,7 +8,7 @@ export default function Carousel({ type }) {
         loop: true,
         mode: "free",
         slides: {
-            perView: 2,
+            perView: 3,
             spacing: 15,
         },
     })

@@ -25,6 +25,9 @@ function NavBar() {
                     <Link href="/" className='text-lg font-medium hover:font-bold transition-colors'>
                         HOME
                     </Link>
+                    <Link href="/entertainment" className='text-lg font-medium hover:font-bold transition-colors'>
+                        BOUTUS
+                    </Link>
                     <Link href="/projects" className='text-lg font-medium hover:font-bold transition-colors'>
                         PROJECTS
                     </Link>
@@ -34,11 +37,15 @@ function NavBar() {
                     <Link href="/entertainment" className='text-lg font-medium hover:font-bold transition-colors'>
                         ENTERTAINMENT
                     </Link>
+                    
                 </div>
             ) : <div className='  flex-row hidden lg:flex gap-16  '>
                 <Link href="/" className='text-lg font-medium hover:font-bold transition-colors'>
                     HOME
                 </Link>
+                <Link href="/entertainment" className='text-lg font-medium hover:font-bold transition-colors'>
+                        BOUTUS
+                    </Link>
                 <Link href="/projects" className='text-lg font-medium hover:font-bold transition-colors'>
                     PROJECTS
                 </Link>
@@ -48,6 +55,7 @@ function NavBar() {
                 <Link href="/entertainment" className='text-lg font-medium hover:font-bold transition-colors'>
                     ENTERTAINMENT
                 </Link>
+                
             </div>
             }
             <Image

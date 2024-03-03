@@ -7,7 +7,7 @@ function Main() {
     // Function to render the indicator based on the active state
     const renderIndicator = (activeIndex) => {
         return (
-            <div className="w-full h-1 bg-red-500" style={{ transform: `translateX(${(activeIndex - 1) * 100}%)`, transition: 'transform 0.3s ease-in-out' }}></div>
+            <div className="w-full h-[2px] bg-green-700" style={{ transform: `translateX(${(activeIndex - 1) * 100}%)`, transition: 'transform 0.3s ease-in-out' }}></div>
         );
     };
 

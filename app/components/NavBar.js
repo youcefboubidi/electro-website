@@ -8,7 +8,7 @@ function NavBar() {
 
     return (
         <div>
-            <nav className="flex justify-between items-center text-white py-4 px-6">
+            <nav className="flex justify-center gap-96 bg-[#212121] rounded-lg items-center text-white py-4 px-6">
                 <div className='flex items-center gap-4'>
                     <Link href="/">
                         <p>
@@ -25,18 +25,19 @@ function NavBar() {
                 </div>
                 <div className={`flex-col gap-4 lg:flex-row lg:flex ${isOpen ? 'flex' : 'hidden'}`}>
                     <Link href="/">
-                        <p className='text-lg font-medium hover:text-gray-300 transition-colors'>HOME</p>
+                        <p className='text-lg font-medium hover:font-bold transition-colors'>HOME</p>
                     </Link>
                     <Link href="/projects">
-                        <p className='text-lg font-medium hover:text-gray-300 transition-colors'>PROJECTS</p>
+                        <p className='text-lg font-medium hover:font-bold transition-colors'>PROJECTS</p>
                     </Link>
                     <Link href="/events">
-                        <p className='text-lg font-medium hover:text-gray-300 transition-colors'>EVENTS</p>
+                        <p className='text-lg font-medium hover:font-bold transition-colors'>EVENTS</p>
                     </Link>
                     <Link href="/entertainment">
-                        <p className='text-lg font-medium hover:text-gray-300 transition-colors'>ENTERTAINMENT</p>
+                        <p className='text-lg font-medium hover:font-bold transition-colors'>ENTERTAINMENT</p>
                     </Link>
                 </div>
+
                 <button
                     className='lg:hidden p-2 rounded-md bg-gray-700 hover:bg-gray-600 transition-colors'
                     onClick={() => setIsOpen(!isOpen)}
@@ -49,8 +50,10 @@ function NavBar() {
                         className='cursor-pointer'
                     />
                 </button>
+
             </nav>
-            <hr className='mb-10' />
+            <div className='mb-10' />
+
         </div>
     );
 }

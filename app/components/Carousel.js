@@ -19,31 +19,22 @@ export default function Carousel({ type }) {
         case 'projects':
             return (
                 <div ref={sliderRef} className="keen-slider">
-                    <div className={`${projectClassName}1 rounded-xl`}>
+                    <div className={`${projectClassName}1 rounded-xl cursor-pointer`}>
                         <Project id={1} />
                     </div>
-                    <div className={`${projectClassName}2 rounded-xl`}>
+                    <div className={`${projectClassName}2 rounded-xl cursor-pointer`}>
                         <Project id={2} />
                     </div>
-                    <div className={`${projectClassName}3 rounded-xl`}>
+                    <div className={`${projectClassName}3 rounded-xl cursor-pointer`}>
                         <Project id={3} />
                     </div>
-                    <div className={`${projectClassName}1 rounded-xl`}>
+                    <div className={`${projectClassName}1 rounded-xl cursor-pointer`}>
                         <Project id={1} />
                     </div>
-                    <div className={`${projectClassName}2 rounded-xl`}>
+                    <div className={`${projectClassName}2 rounded-xl cursor-pointer`}>
                         <Project id={2} />
                     </div>
-                    <div className={`${projectClassName}3 rounded-xl`}>
-                        <Project id={3} />
-                    </div>
-                    <div className={`${projectClassName}1 rounded-xl`}>
-                        <Project id={1} />
-                    </div>
-                    <div className={`${projectClassName}2 rounded-xl`}>
-                        <Project id={2} />
-                    </div>
-                    <div className={`${projectClassName}3 rounded-xl`}>
+                    <div className={`${projectClassName}3 rounded-xl cursor-pointer`}>
                         <Project id={3} />
                     </div>
                 </div>

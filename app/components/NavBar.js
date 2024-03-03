@@ -8,7 +8,7 @@ function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="flex justify-between text-2xl py-10 px-16 pb-24 ">
+        <nav className=" flex justify-around items-center rounded-lg text-2xl p-2 px-16 mb-24 ">
             <div className='flex gap-4 items-center'>
                 <Image
                     src='/logo all white 2.png'

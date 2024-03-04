@@ -14,9 +14,10 @@ export default function Home() {
     <main >
      <NavBar />
       <Hero />  
-      <Members />
       <About_us />
-      <div className='px-20 bg-[#23272f]'><Main /></div>
+      <Members />
+      
+      <div className='px-32 bg-[#23272f] pt-10'><Main /></div>
       <Footer />
       
 

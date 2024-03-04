@@ -18,7 +18,7 @@ export default function Carousel({ type }) {
     switch (type) {
         case 'projects':
             return (
-                <div ref={sliderRef} className="keen-slider">
+                <div ref={sliderRef} className="keen-slider ">
                     <div className={`${projectClassName}1 rounded-xl cursor-pointer`}>
                         <Project id={1} />
                     </div>
@@ -63,7 +63,7 @@ export default function Carousel({ type }) {
 
         case 'entertainment':
             return (
-                <div ref={sliderRef} className="keen-slider">
+                <div ref={sliderRef} className="keen-slider ">
                     <div className={`${projectClassName}1`}>
                         <h1 className='text-4xl'>ENTERTAINMENT 1</h1>
                     </div>

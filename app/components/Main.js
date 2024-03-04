@@ -13,7 +13,7 @@ function Main() {
 
     return (
         <div>
-            <ul className="grid grid-cols-3 text-3xl">
+            <ul className="grid grid-cols-3 text-3xl ">
                 {['Projects', 'Events', 'Entertainment'].map((item, index) => (
                     <li key={index} className='mx-auto my-8 squada-one-regular cursor-pointer' onClick={() => setActive(index + 1)}>
                         {item}

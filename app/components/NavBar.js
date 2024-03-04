@@ -8,20 +8,20 @@ function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className=" flex justify-around items-center rounded-lg text-2xl p-2 px-16 mb-24 ">
+        <nav className=" flex justify-around items-center rounded-lg text-2xl p-2 px-16 pb-24 py-4  bg-[#23272f]">
             <div className='flex gap-4 items-center'>
-                <Image
+               <Link href="/"  className='flex items-center gap-4'> <Image
                     src='/logo all white 2.png'
                     width={51}
                     height={50}
-                    className='cursor-default '
+                    className=' '
 
-                />
+                /> 
 
-                <span className=' text-[24px] font-[400] cursor-default '>ELECTRO CLUB</span>
+                <span className=' text-[24px] font-[400] '>ELECTRO CLUB</span> </Link>
             </div>
             {isOpen ? (
-                <div className=' flex flex-col gap-16 lg:flex-row  '>
+                <div className=' flex flex-col gap-16 lg:flex-row '>
                     <Link href="/" className='text-lg font-medium hover:font-bold transition-colors'>
                         HOME
                     </Link>

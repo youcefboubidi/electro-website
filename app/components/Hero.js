@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-
+import { hero } from './constants'
 function Hero() {
     const paragraph = 'We are a team of passionate and motiated comunity join us now cocks and balls '
     return (
@@ -8,8 +8,8 @@ function Hero() {
             <div className="flex justify-around ">
                 <div className="flex flex-col justify-center gap-4 ">
 
-                    <h1 className="text-6xl squada-one-regular ">Build The Next Generation Defining Project With Electro </h1>
-                    <p className='text-xl pr-20 font-medium opacity-70 ' >{paragraph}</p>
+                    <h1 className="text-6xl squada-one-regular ">{hero.title}</h1>
+                    <p className='text-xl pr-20 font-medium opacity-70 ' >{hero.description}</p>
                     <div className=''><button className='flex justify-self-center gap-3 rounded-md border p-3' width={24} height={24}><label className="bold-16 whitespace-nowrap cursor-pointer">About Us</label>     </button></div>
                 </div>
 

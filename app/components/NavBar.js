@@ -22,14 +22,14 @@ function NavBar() {
                     <span className=' text-[24px] font-[400] '>ELECTRO CLUB</span> </Link>
             </div>
             {isOpen ? (
-                <div className=' flex flex-col gap-16 lg:flex-row '>
+                <div className=' flex flex-col gap-16 lg:flex-row uppercase '>
                     {navigation.map((item) => (
                         <Link href={item.href} className='text-lg font-medium hover:font-bold transition-colors hover:text-green-600'>
                             {item.title}
                         </Link>
                     ))}
                 </div>
-            ) : <div className='  flex-row hidden lg:flex gap-16  '>
+            ) : <div className='  flex-row hidden lg:flex gap-16 uppercase '>
 
                 {navigation.map((item) => (
                     <Link href={item.href} className='text-lg font-medium hover:font-bold transition-colors hover:text-green-600'>

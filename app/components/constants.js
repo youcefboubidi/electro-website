@@ -43,16 +43,16 @@ export const info = [
         'description': 'Members'
     },
     {
-        'count': '13',
+        'count': '35',
         'description': 'Projects'
     },
     {
-        'count': '112',
+        'count': '115',
         'description': 'Events'
     },
     {
-        'count': '132',
-        'description': 'Nerds'
+        'count': '32',
+        'description': 'Workshops'
     }
 ]
 

@@ -24,7 +24,7 @@ function NavBar() {
             {isOpen ? (
                 <div className=' flex flex-col gap-16 lg:flex-row '>
                     {navigation.map((item) => (
-                        <Link href={item.href} className='text-lg font-medium hover:font-bold transition-colors'>
+                        <Link href={item.href} className='text-lg font-medium hover:font-bold transition-colors hover:text-green-600'>
                             {item.title}
                         </Link>
                     ))}
@@ -32,7 +32,7 @@ function NavBar() {
             ) : <div className='  flex-row hidden lg:flex gap-16  '>
 
                 {navigation.map((item) => (
-                    <Link href={item.href} className='text-lg font-medium hover:font-bold transition-colors'>
+                    <Link href={item.href} className='text-lg font-medium hover:font-bold transition-colors hover:text-green-600'>
                         {item.title}
                     </Link>
                 ))}

@@ -37,12 +37,29 @@ export const aboutus =
     be part of the incredible evolution happening in these fields.`
 }
 
+export const info = {
+    'members': {
+        'count': '132',
+        'description': 'Members'
+    },
+    'projects': {
+        'count': '13',
+        'description': 'Projects'
+    },
+    'events': {
+        'count': '112',
+        'description': 'Events'
+    },
+    'nerds': {
+        'count': '132',
+        'description': 'Nerds'
+    }
+}
+
 const main =
     [
         {
-            'member_count': '141',
-            'project_count': '121',
-            'event_count': '31',
+
             "members": [
                 {
                     'name': '',
